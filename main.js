@@ -77,8 +77,8 @@ while (saludPlayer > 0 && saludComputador > 0) {
         }
         alert ("Has herido a "+ " "+computador )
     }
-    if (saludPlayer < 10 ){alert("Estas mal herido")}
-    else if (saludComputador < 10){alert(computador+""+ "esta mal herido")}
+    //if (saludPlayer < 10 ){alert("Estas mal herido")}
+    //else if (saludComputador < 10){alert(computador+""+ "esta mal herido")}
 
     console.log(turnoCompu + "compu");
     console.log(turnoPlayer + "player");
