@@ -5,6 +5,15 @@
 body{
     background-color: black;
 }
+
+
+h1{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
 /*let energiaShinobi = 80;
 let energiaHighlander = 80;
 let round = 0;
