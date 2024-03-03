@@ -63,7 +63,7 @@ while (saludPlayer > 0 && saludComputador > 0) {
 
     if (turnoCompu == turnoPlayer) {
         console.log("Parry");
-        alert("Parry! Han Chocado espadas y se miran fijamente!")
+        alert("Parry! Saltan chispas! Han chocado espadas y se miran fijamente!")
     }
     else if (turnoCompu > turnoPlayer) {
         saludPlayer -= golpeComputador;
