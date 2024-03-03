@@ -4,7 +4,10 @@ let round = 0;
 let player = prompt("caballero o samurai (escribelo)") //"caballero" 
 const HEAVY = 30;
 const LIGHT = 20;
-
+function salud() {   console.log(" salud player " + saludPlayer);
+console.log(" salud compu " + saludComputador) //
+    
+}
 
 
 if (player == "caballero") {
@@ -26,6 +29,7 @@ else {
     console.log("elegiste arruinar mi dia,recargar pagina ")
 
 }
+salud();
 
 alert ("Ves a un"+ " " + computador + " "+ "listo para el combate, Tu primer movimiento sera...!")
 
@@ -78,13 +82,12 @@ while (saludPlayer > 0 && saludComputador > 0) {
         alert ("Has herido a "+ " "+computador )
     }
     //if (saludPlayer < 10 ){alert("Estas mal herido")}
-    //else if (saludComputador < 10){alert(computador+""+ "esta mal herido")}
+   // else if (saludComputador < 10){alert(computador+""+ "esta mal herido")}
 
     console.log(turnoCompu + "compu");
     console.log(turnoPlayer + "player");
-    console.log(" salud player " + saludPlayer);
-    console.log(" salud compu " + saludComputador)
-    console.log("----------------------------------")
+   //salud();
+    console.log("----------------------------------");
 }
 
 if (saludPlayer > 0){ 
@@ -92,6 +95,6 @@ if (saludPlayer > 0){
     console.log("¡victoria "+ player+ "!")
 
 }
-else{  
+else{  alert("Te ha derrotado el"+" "+computador+""+". Descansa un minuto y continua su camino...")
     console.log("Derrotado en Ronda n°" + round)
 }
