@@ -8,26 +8,26 @@ const LIGHT = 20;
 
 
 if (player == "caballero") {
-    alert ("elegiste"+ " " + player)    
+    alert ("Elegiste"+ " " + player)    
     console.log ("Elegiste" + " " + player)
     computador = "samurai"
-    alert ("duelo contra"+ " " + computador)
+    alert ("Duelo contra"+ " " + computador)
 }
 else if (player == "samurai") {
     alert ("elegiste"+ " " + player)
   
     console.log ("Elegiste" + " " + player)
     computador = "caballero"
-    alert ("duelo contra"+ " " + computador)
+    alert ("Duelo contra"+ " " + computador)
 }
 
 else {
-    alert("no es combatiente")
+    alert("No es combatiente")
     console.log("elegiste arruinar mi dia,recargar pagina ")
 
 }
 
-alert ("Ves a un"+ " " + computador + " "+ "listo para el combate, tu primer movimiento sera...!")
+alert ("Ves a un"+ " " + computador + " "+ "listo para el combate, Tu primer movimiento sera...!")
 
 
 while (saludPlayer > 0 && saludComputador > 0) {
