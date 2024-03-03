@@ -1,7 +1,7 @@
 let saludPlayer = 50;
 let saludComputador = 50;
 let round = 0;
-let player = prompt("caballero o samurai") //"caballero" 
+let player = prompt("caballero o samurai (escribelo)") //"caballero" 
 const HEAVY = 30;
 const LIGHT = 20;
 
@@ -32,7 +32,7 @@ alert ("Ves a un"+ " " + computador + " "+ "listo para el combate, tu primer mov
 
 while (saludPlayer > 0 && saludComputador > 0) {
 
-   let ataque = prompt("Elige: A ataque Fuerte, B contra Ataque, C amague y Ataque (minuscula)");
+   let ataque = prompt("Elige: A ataque Fuerte, B contra Ataque, C amague y Ataque (letra en minuscula)");
     switch (ataque) {
         case "a":
             turnoPlayer = 2
@@ -77,6 +77,8 @@ while (saludPlayer > 0 && saludComputador > 0) {
         }
         alert ("Has herido a "+ " "+computador )
     }
+    if (saludPlayer < 10 ){alert("Estas mal herido")}
+    else if (saludComputador < 10){alert(computador+""+ "esta mal herido")}
 
     console.log(turnoCompu + "compu");
     console.log(turnoPlayer + "player");

@@ -7,11 +7,12 @@ body{
 }
 
 
-h1{
+h1{ margin-inline: 40%;
+    margin-bottom: 100px;
     color: aliceblue;
 }
 
-h2{
+h2{margin-inline: 40%;
     color: aliceblue;
 }
 /*let energiaShinobi = 80;
