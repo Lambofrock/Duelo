@@ -86,7 +86,7 @@ while (saludPlayer > 0 && saludComputador > 0) {
 
     console.log(turnoCompu + "compu");
     console.log(turnoPlayer + "player");
-   //salud();
+   salud();
     console.log("----------------------------------");
 }
 
